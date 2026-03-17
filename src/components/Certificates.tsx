@@ -19,14 +19,7 @@ const certificates = [
     image: "https://res.cloudinary.com/dcxu5wckd/image/upload/v1772165576/37bcdcb2-dcc2-4f79-ae08-9a41e2b4636a_page-0001_bus3bp.jpg",
     link: "https://d8it4huxumps7.cloudfront.net/lambda-pdfs/certificate-images/37bcdcb2-dcc2-4f79-ae08-9a41e2b4636a.pdf"
   },
-  {
-    id: 3,
-    title: "Google UX Design Professional",
-    issuer: "Google",
-    date: "2022",
-    image: "https://picsum.photos/seed/google/600/400",
-    link: "#"
-  },
+ 
  
 ];
 
