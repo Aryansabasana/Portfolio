@@ -1,5 +1,6 @@
 import { useRef } from 'react';
 import { motion, useScroll, useTransform } from 'motion/react';
+import { FileText } from 'lucide-react';
 
 export default function About() {
   const containerRef = useRef(null);
@@ -66,6 +67,14 @@ export default function About() {
                    style={{ WebkitTextStroke: '1px white' }}>
                 01
               </div>
+            </div>
+
+            {/* Resume Button */}
+            <div className="mt-14 flex justify-center md:justify-end relative z-20">
+                <a href="/resume.pdf" target="_blank" className="flex items-center gap-3 bg-white text-black border-2 border-white font-bold uppercase tracking-widest px-8 py-4 hover:bg-black hover:text-white transition-colors duration-300 text-sm">
+                   <FileText size={20} />
+                   Download Resume
+                </a>
             </div>
           </div>
         </div>

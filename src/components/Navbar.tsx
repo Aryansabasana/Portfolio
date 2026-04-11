@@ -1,25 +1,36 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'motion/react';
 
 const navLinks = [
-  { name: 'Index', href: '#hero' },
-  { name: 'About', href: '#about' },
-  { name: 'Education', href: '#education' },
-  { name: 'Skills', href: '#skills' },
-  { name: 'Works', href: '#my-works' },
-  { name: 'Awards', href: '#certificates' },
-  { name: 'Contact', href: '#contact' },
+  { name: 'Index',      to: '/' },
+  { name: 'About',      to: '/about' },
+  { name: 'Education',  to: '/education' },
+  { name: 'Skills',     to: '/skills' },
+  { name: 'Works',      to: '/works' },
+  { name: 'Hackathons', to: '/hackathons' },
+  { name: 'Awards',     to: '/awards' },
+  { name: 'Contact',    to: '/contact' },
 ];
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const navigate = useNavigate();
+
+  const handleLogoClick = () => {
+    navigate('/');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
 
   return (
     <>
       <nav className="fixed top-0 left-0 right-0 z-50 px-6 py-6 flex justify-between items-center mix-blend-difference text-white">
-        <a href="#" className="text-xl font-bold tracking-tighter uppercase font-display">
+        <button
+          onClick={handleLogoClick}
+          className="text-xl font-bold tracking-tighter uppercase font-display cursor-pointer bg-transparent border-none"
+        >
           Aryan<span className="text-indigo-500">.</span>Dev
-        </a>
+        </button>
 
         <button
           onClick={() => setIsOpen(!isOpen)}
@@ -41,18 +52,21 @@ export default function Navbar() {
           >
             <div className="flex flex-col items-center space-y-4 py-8">
               {navLinks.map((link, index) => (
-                <motion.a
+                <motion.div
                   key={link.name}
-                  href={link.href}
-                  onClick={() => setIsOpen(false)}
                   initial={{ y: 50, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
                   transition={{ delay: index * 0.05 }}
-                  className="text-4xl md:text-6xl font-black text-transparent stroke-text hover:text-white transition-colors duration-300 uppercase font-display tracking-tighter"
-                  style={{ WebkitTextStroke: '1px white' }}
                 >
-                  {link.name}
-                </motion.a>
+                  <Link
+                    to={link.to}
+                    onClick={() => { setIsOpen(false); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
+                    className="text-4xl md:text-6xl font-black text-transparent stroke-text hover:text-white transition-colors duration-300 uppercase font-display tracking-tighter block"
+                    style={{ WebkitTextStroke: '1px white' }}
+                  >
+                    {link.name}
+                  </Link>
+                </motion.div>
               ))}
             </div>
           </motion.div>
