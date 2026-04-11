@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aryan-sabasana.netlify.app/sitemap.xml
