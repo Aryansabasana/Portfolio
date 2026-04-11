@@ -4,6 +4,7 @@
  */
 
 import { Routes, Route } from 'react-router-dom';
+import { HelmetProvider } from 'react-helmet-async';
 import Navbar from './components/Navbar';
 import CustomCursor from './components/CustomCursor';
 
@@ -18,19 +19,21 @@ import ContactPage from './pages/ContactPage';
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-[#F0F0F0] font-sans text-black selection:bg-black selection:text-white overflow-x-hidden">
-      <CustomCursor />
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/about" element={<AboutPage />} />
-        <Route path="/education" element={<EducationPage />} />
-        <Route path="/skills" element={<SkillsPage />} />
-        <Route path="/works" element={<WorksPage />} />
-        <Route path="/hackathons" element={<HackathonsPage />} />
-        <Route path="/awards" element={<AwardsPage />} />
-        <Route path="/contact" element={<ContactPage />} />
-      </Routes>
-    </div>
+    <HelmetProvider>
+      <div className="min-h-screen bg-[#F0F0F0] font-sans text-black selection:bg-black selection:text-white overflow-x-hidden">
+        <CustomCursor />
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/education" element={<EducationPage />} />
+          <Route path="/skills" element={<SkillsPage />} />
+          <Route path="/works" element={<WorksPage />} />
+          <Route path="/hackathons" element={<HackathonsPage />} />
+          <Route path="/awards" element={<AwardsPage />} />
+          <Route path="/contact" element={<ContactPage />} />
+        </Routes>
+      </div>
+    </HelmetProvider>
   );
 }
