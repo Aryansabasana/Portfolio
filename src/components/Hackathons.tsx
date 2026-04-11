@@ -1,9 +1,6 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Trophy, X, ArrowRight } from 'lucide-react';
-import hackathonImg1 from '../assets/678A2160.JPG';
-import hackathonImg2 from '../assets/WhatsApp Image 2026-04-09 at 17.18.00.jpeg';
-
 
 const hackathons = [
   {
@@ -13,7 +10,7 @@ const hackathons = [
     description: `🥈 First Runner-Up at Convergence Hackathon, Ganpat University, built an AI-driven solution for real-world agricultural challenges.
 Developed a system using weather, soil, and satellite data to predict crop yield and assist farmers’ decisions.
 Demonstrated strong teamwork, problem-solving, and rapid prototyping in a high-pressure 36-hour hackathon environment.`,
-    image: hackathonImg1,
+    image: "https://res.cloudinary.com/dcxu5wckd/image/upload/v1775886660/678A2160_jcmpcb.jpg",
   },
   {
     id: 2,
@@ -22,7 +19,7 @@ Demonstrated strong teamwork, problem-solving, and rapid prototyping in a high-p
     description: `🏆 Winner at Sangam University Hackathon for building Kisan Dost, an AI-powered agriculture assistant.
 Developed a system to predict crop yield and profitability using weather, soil, and satellite data.
 Enabled farmers to make smarter, data-driven decisions with an easy-to-use and impactful solution.`,
-    image: hackathonImg2,
+    image: "https://res.cloudinary.com/dcxu5wckd/image/upload/v1775886638/WhatsApp_Image_2026-04-09_at_17.18.00_kugmew.jpg",
   }
 ];
 
