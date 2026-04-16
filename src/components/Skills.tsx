@@ -17,13 +17,13 @@ const skillCategories = [
 
 export default function Skills() {
   return (
-    <section id="skills" className="relative z-10 py-24 px-6 md:px-12 bg-black text-white -mt-2">
+    <section id="skills" className="relative z-10 py-24 px-6 md:px-12 bg-white text-black -mt-2">
       <div className="max-w-7xl mx-auto">
-        <div className="mb-20 border-b border-white/20 pb-8">
+        <div className="mb-20 border-b border-black/20 pb-8">
           <h2 className="text-3xl sm:text-5xl md:text-5xl lg:text-6xl xl:text-7xl font-black uppercase tracking-tighter mb-4">
             Technical<br/>Arsenal
           </h2>
-          <p className="text-gray-400 font-mono text-sm md:text-base max-w-xl">
+          <p className="text-gray-500 font-mono text-sm md:text-base max-w-xl">
             The tools and technologies I use to bring digital visions to life.
           </p>
         </div>
@@ -38,8 +38,8 @@ export default function Skills() {
               transition={{ delay: index * 0.1 }}
               className="group"
             >
-              <h3 className="text-2xl font-bold uppercase mb-8 text-indigo-500 flex items-center gap-3">
-                <span className="w-2 h-2 bg-indigo-500 rounded-full"></span>
+              <h3 className="text-2xl font-bold uppercase mb-8 text-indigo-600 flex items-center gap-3">
+                <span className="w-2 h-2 bg-indigo-600 rounded-full"></span>
                 {category.title}
               </h3>
               
@@ -47,10 +47,10 @@ export default function Skills() {
                 {category.skills.map((skill) => (
                   <div 
                     key={skill}
-                    className="border-b border-white/10 py-3 flex items-center justify-between group-hover:border-white/30 transition-colors"
+                    className="border-b border-black/10 py-3 flex items-center justify-between group-hover:border-black/30 transition-colors"
                   >
                     <span className="text-lg md:text-xl font-medium tracking-tight">{skill}</span>
-                    <span className="opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300 text-indigo-500">
+                    <span className="opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300 text-indigo-600">
                       →
                     </span>
                   </div>

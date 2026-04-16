@@ -1,4 +1,6 @@
 import { motion, useScroll, useTransform } from 'motion/react';
+import { ArrowRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 export default function Hero() {
   const { scrollY } = useScroll();
@@ -38,10 +40,25 @@ export default function Hero() {
           transition={{ delay: 1 }}
           className="mt-12 md:mt-16 ml-auto max-w-md text-right"
         >
-          <p className="text-lg md:text-xl font-medium leading-tight">
+          <p className="text-lg md:text-xl font-medium leading-tight mb-8">
             I build digital experiences that <span className="bg-black text-white px-2">defy expectations</span>. 
             Full-stack engineering meets radical design.
           </p>
+          
+          <div className="flex flex-row gap-4 justify-end">
+            <Link 
+              to="/works" 
+              className="flex items-center justify-center gap-2 bg-black text-white px-4 py-2.5 font-bold uppercase text-sm hover:bg-gray-800 transition-colors w-40 whitespace-nowrap"
+            >
+              View Projects <ArrowRight size={16} />
+            </Link>
+            <Link 
+              to="/contact" 
+              className="flex items-center justify-center gap-2 border-2 border-black text-black px-4 py-2.5 font-bold uppercase text-sm hover:bg-black hover:text-white transition-colors w-40 whitespace-nowrap"
+            >
+              Contact
+            </Link>
+          </div>
         </motion.div>
       </div>
 

@@ -10,22 +10,22 @@ import { Helmet } from 'react-helmet-async';
 
 export default function HomePage() {
   return (
-    <>    
-    <Helmet>
-        <title>Home</title>
-        <meta name="description" content="Welcome to my portfolio!" />
+    <>
+      <Helmet>
+        <title>Aryan Sabasana | Full Stack Developer & Creative Technologist</title>
+        <meta name="description" content="Portfolio of Aryan Sabasana - Full Stack Developer specializing in React, TypeScript, Node.js, and creative digital experiences. View projects, skills, hackathons, and achievements." />
       </Helmet>
 
-    <main>
-      <Hero />
-      <About />
-      <Education />
-      <Skills />
-      <MyWorks />
-      <Hackathons />
-      <Certificates />
-      <Contact />
-    </main>
+      <main>
+        <Hero />
+        <About />
+        <Skills />
+        <Hackathons />
+        <MyWorks />
+        <Education />
+        <Certificates />
+        <Contact />
+      </main>
     </>
   );
 }

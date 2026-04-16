@@ -18,10 +18,10 @@ export default function About() {
           {/* Left Column: Text Content */}
           <div>
             <h2 className="text-4xl sm:text-6xl md:text-6xl lg:text-7xl xl:text-8xl font-black uppercase tracking-tighter mb-8 leading-[0.85]">
-              Who<br/>Am I?
+              Who<br />Am I?
             </h2>
             <div className="w-24 h-2 bg-indigo-500 mb-10" />
-            
+
             <div className="space-y-8 text-xl md:text-2xl font-medium leading-relaxed text-gray-300">
               <p>
                 I'm not just a coder. I'm a digital architect obsessed with structure, motion, and the raw beauty of code.
@@ -40,20 +40,20 @@ export default function About() {
             <div className="relative aspect-[3/4] w-full max-w-md mx-auto md:ml-auto">
               {/* Photo Frame/Border Effect */}
               <div className="absolute inset-0 border-2 border-white translate-x-4 translate-y-4 z-0"></div>
-              
+
               {/* Image Container */}
               <div className="relative h-full w-full bg-gray-800 overflow-hidden border-2 border-white z-10 grayscale hover:grayscale-0 transition-all duration-500">
-                <img 
-                  src="https://avatars.githubusercontent.com/u/226010537?s=400&u=5b8460e62a352fd014b17faa3558a6ab1ea5027c&v=4" 
-                  alt="Profile" 
+                <img
+                  src="https://avatars.githubusercontent.com/u/226010537?s=400&u=5b8460e62a352fd014b17faa3558a6ab1ea5027c&v=4"
+                  alt="Profile"
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"
                 />
-                
+
                 {/* Overlay Text */}
                 <div className="absolute bottom-0 left-0 w-full p-6 bg-gradient-to-t from-black/90 to-transparent">
                   <p className="text-white font-mono text-sm uppercase tracking-widest">
-                    Alex Developer
+                    Aryan Developer
                   </p>
                   <p className="text-gray-300 text-xs mt-1">
                     Full Stack Engineer
@@ -63,18 +63,23 @@ export default function About() {
 
               {/* Decorative Elements */}
               <div className="absolute -top-6 -right-6 w-12 h-12 bg-indigo-500 rounded-full mix-blend-screen animate-bounce-slow"></div>
-              <div className="absolute -bottom-8 -left-8 text-8xl font-black text-transparent stroke-text opacity-20 select-none pointer-events-none" 
-                   style={{ WebkitTextStroke: '1px white' }}>
+              <div className="absolute -bottom-8 -left-8 text-8xl font-black text-transparent stroke-text opacity-20 select-none pointer-events-none"
+                style={{ WebkitTextStroke: '1px white' }}>
                 01
               </div>
             </div>
 
             {/* Resume Button */}
             <div className="mt-14 flex justify-center md:justify-end relative z-20">
-                <a href="/resume.pdf" target="_blank" className="flex items-center gap-3 bg-white text-black border-2 border-white font-bold uppercase tracking-widest px-8 py-4 hover:bg-black hover:text-white transition-colors duration-300 text-sm">
-                   <FileText size={20} />
-                   Download Resume
-                </a>
+              <a
+                href="/resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 bg-white text-black border-2 border-white font-bold uppercase tracking-widest px-8 py-4 hover:bg-black hover:text-white transition-colors duration-300 text-sm"
+              >
+                <FileText size={20} />
+                View Resume
+              </a>
             </div>
           </div>
         </div>
