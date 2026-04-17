@@ -111,17 +111,17 @@ const works: Work[] = [
   },
   {
     id: 7,
-    title: "PORTFOLIO DESIGN",
+    title: "BHOOMA HOSPITAL UI",
     description: "A creative portfolio design with bold typography and interactive elements, designed in Figma.",
     images: [
-      "https://images.unsplash.com/photo-1545235617-9465d2a55698?w=800&h=450&fit=crop",
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=450&fit=crop",
-      "https://images.unsplash.com/photo-1559028012-481c04fa762d?w=800&h=450&fit=crop"
+      "https://res.cloudinary.com/dcxu5wckd/image/upload/v1776424921/Screenshot_2026-04-17_165103_tdmsf2.png",
+      "https://res.cloudinary.com/dcxu5wckd/image/upload/v1776424921/Screenshot_2026-04-17_165120_kx2sqt.png",
+      "https://res.cloudinary.com/dcxu5wckd/image/upload/v1776424921/Screenshot_2026-04-17_165137_quh0lm.png"
     ],
     tech: ["Figma", "UI/UX", "Wireframing"],
     codeLink: "",
-    liveLink: "https://www.figma.com/proto/g6vcO3RxGBNPbCPjCL2ftf/Untitled?node-id=167-390",
-    figmaLink: "https://www.figma.com/design/g6vcO3RxGBNPbCPjCL2ftf/Untitled?node-id=167-390",
+    liveLink: "https://www.figma.com/proto/qEI0GO8iH8dKOHQrxQ9XOD/Untitled?node-id=7-2&t=3sDC4uJs1DGJpHEM-1",
+    figmaLink: "https://www.figma.com/design/qEI0GO8iH8dKOHQrxQ9XOD/Untitled?node-id=7-2&t=3sDC4uJs1DGJpHEM-1",
     category: "Figma"
   }
 ];
