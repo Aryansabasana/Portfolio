@@ -33,42 +33,16 @@ export default function Navbar() {
           Aryan<span className="text-indigo-500">.</span>Dev
         </button>
 
-        <div className="hidden md:flex items-center gap-6 font-mono text-sm">
-          {navLinks.map((link) => (
-            link.external ? (
-              <a
-                key={link.name}
-                href={link.to}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-white/60 hover:text-white transition-colors duration-300 uppercase tracking-wider"
-              >
-                {link.name}
-              </a>
-            ) : (
-              <Link
-                key={link.name}
-                to={link.to}
-                className={`relative transition-colors duration-300 uppercase tracking-wider ${
-                  isActive(link.to) 
-                    ? 'text-white after:absolute after:bottom-[-4px] after:left-0 after:w-full after:h-0.5 after:bg-indigo-500' 
-                    : 'text-white/60 hover:text-white'
-                }`}
-              >
-                {link.name}
-              </Link>
-            )
-          ))}
+        <div className="flex items-center gap-6">
+          <button
+            onClick={() => setIsOpen(!isOpen)}
+            className="group flex flex-col gap-1.5 cursor-pointer"
+          >
+            <span className={`block w-8 h-0.5 bg-white transition-transform duration-300 ${isOpen ? 'rotate-45 translate-y-2' : ''}`} />
+            <span className={`block w-8 h-0.5 bg-white transition-opacity duration-300 ${isOpen ? 'opacity-0' : ''}`} />
+            <span className={`block w-8 h-0.5 bg-white transition-transform duration-300 ${isOpen ? '-rotate-45 -translate-y-2' : ''}`} />
+          </button>
         </div>
-
-        <button
-          onClick={() => setIsOpen(!isOpen)}
-          className="group flex flex-col gap-1.5 cursor-pointer md:hidden"
-        >
-          <span className={`block w-8 h-0.5 bg-white transition-transform duration-300 ${isOpen ? 'rotate-45 translate-y-2' : ''}`} />
-          <span className={`block w-8 h-0.5 bg-white transition-opacity duration-300 ${isOpen ? 'opacity-0' : ''}`} />
-          <span className={`block w-8 h-0.5 bg-white transition-transform duration-300 ${isOpen ? '-rotate-45 -translate-y-2' : ''}`} />
-        </button>
       </nav>
 
       <AnimatePresence>
