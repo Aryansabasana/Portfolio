@@ -96,12 +96,12 @@ const works: Work[] = [
   },
   {
     id: 6,
-    title: "E-COMMERCE DASHBOARD",
-    description: "A modern e-commerce dashboard design with dark mode, analytics charts, and responsive layout created in Figma.",
+    title: "REDBUS CLONE",
+    description: "A clone of the Redbus bus booking website built with HTML, CSS, and JavaScript. Features include bus ticket booking, seat selection, route search, and user-friendly interface for booking bus tickets.",
     images: [
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=450&fit=crop",
-      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=450&fit=crop",
-      "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&h=450&fit=crop"
+      "https://res.cloudinary.com/dcxu5wckd/image/upload/v1776424704/Screenshot_2026-04-17_164619_erezdr.png",
+      "https://res.cloudinary.com/dcxu5wckd/image/upload/v1776424704/Screenshot_2026-04-17_164702_zt421x.png",
+      "https://res.cloudinary.com/dcxu5wckd/image/upload/v1776424704/Screenshot_2026-04-17_164619_erezdr.png"
     ],
     tech: ["Figma", "UI/UX", "Prototyping"],
     codeLink: "",
