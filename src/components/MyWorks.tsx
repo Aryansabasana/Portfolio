@@ -96,17 +96,17 @@ const works: Work[] = [
   },
   {
     id: 6,
-    title: "REDBUS CLONE",
-    description: "A clone of the Redbus bus booking website built with HTML, CSS, and JavaScript. Features include bus ticket booking, seat selection, route search, and user-friendly interface for booking bus tickets.",
+    title: "ADZO Edtech UI",
+    description: "A modern and engaging UI design for an Edtech platform, created in Figma. The design features a clean layout, vibrant colors, and intuitive navigation to enhance the user experience for students and educators alike.",
     images: [
-      "https://res.cloudinary.com/dcxu5wckd/image/upload/v1776424704/Screenshot_2026-04-17_164619_erezdr.png",
-      "https://res.cloudinary.com/dcxu5wckd/image/upload/v1776424704/Screenshot_2026-04-17_164702_zt421x.png",
-      "https://res.cloudinary.com/dcxu5wckd/image/upload/v1776424704/Screenshot_2026-04-17_164619_erezdr.png"
+      "https://res.cloudinary.com/dcxu5wckd/image/upload/v1776427040/Screenshot_2026-04-17_172534_zr1e16.png",
+      "https://res.cloudinary.com/dcxu5wckd/image/upload/v1776427040/Screenshot_2026-04-17_172603_nus8mq.png",
+      "https://res.cloudinary.com/dcxu5wckd/image/upload/v1776427040/Screenshot_2026-04-17_172629_mdlzoj.png"
     ],
     tech: ["Figma", "UI/UX", "Prototyping"],
     codeLink: "",
-    liveLink: "https://www.figma.com/proto/g6vcO3RxGBNPbCPjCL2ftf/Untitled?node-id=167-390",
-    figmaLink: "https://www.figma.com/design/g6vcO3RxGBNPbCPjCL2ftf/Untitled?node-id=167-390",
+    liveLink: "https://www.figma.com/proto/qEI0GO8iH8dKOHQrxQ9XOD/Untitled?node-id=7-3&p=f&viewport=170%2C462%2C0.11&t=jD4W52CW2XZAzh8h-1&scaling=scale-down&content-scaling=fixed&page-id=7%3A2",
+    figmaLink: "https://www.figma.com/design/qEI0GO8iH8dKOHQrxQ9XOD/Untitled?node-id=7-2&t=3sDC4uJs1DGJpHEM-1",
     category: "Figma"
   },
   {
@@ -120,8 +120,8 @@ const works: Work[] = [
     ],
     tech: ["Figma", "UI/UX", "Wireframing"],
     codeLink: "",
-    liveLink: "https://www.figma.com/proto/qEI0GO8iH8dKOHQrxQ9XOD/Untitled?node-id=7-2&t=3sDC4uJs1DGJpHEM-1",
-    figmaLink: "https://www.figma.com/design/qEI0GO8iH8dKOHQrxQ9XOD/Untitled?node-id=7-2&t=3sDC4uJs1DGJpHEM-1",
+    liveLink: "https://www.figma.com/proto/qEI0GO8iH8dKOHQrxQ9XOD/Untitled?node-id=203-69&p=f&viewport=171%2C40%2C0.24&t=qAq7VkiW25ynIygy-1&scaling=scale-down&content-scaling=fixed&page-id=92%3A2",
+    figmaLink: "https://www.figma.com/design/qEI0GO8iH8dKOHQrxQ9XOD/Untitled?node-id=92-2&t=3sDC4uJs1DGJpHEM-1",
     category: "Figma"
   }
 ];
