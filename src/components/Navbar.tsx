@@ -28,9 +28,14 @@ export default function Navbar() {
       <nav className="fixed top-0 left-0 right-0 z-50 px-6 py-6 flex justify-between items-center mix-blend-difference text-white">
         <button
           onClick={() => { window.scrollTo({ top: 0, behavior: 'smooth' }); }}
-          className="text-xl font-bold tracking-tighter uppercase font-display cursor-pointer bg-transparent border-none"
+          className="cursor-pointer bg-transparent border-none"
         >
-          Aryan<span className="text-indigo-500">.</span>Dev
+          <img 
+            src="https://avatars.githubusercontent.com/u/226010537?s=400&u=5b8460e62a352fd014b17faa3558a6ab1ea5027c&v=4" 
+            alt="Logo" 
+            className="w-10 h-10 rounded-full object-cover border-2 border-white"
+            referrerPolicy="no-referrer"
+          />
         </button>
 
         <div className="flex items-center gap-6">
