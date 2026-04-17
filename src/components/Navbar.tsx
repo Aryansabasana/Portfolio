@@ -30,12 +30,9 @@ export default function Navbar() {
           onClick={() => { window.scrollTo({ top: 0, behavior: 'smooth' }); }}
           className="cursor-pointer bg-transparent border-none"
         >
-          <img 
-            src="https://avatars.githubusercontent.com/u/226010537?s=400&u=5b8460e62a352fd014b17faa3558a6ab1ea5027c&v=4" 
-            alt="Logo" 
-            className="w-10 h-10 rounded-full object-cover border-2 border-white"
-            referrerPolicy="no-referrer"
-          />
+          <div className="w-10 h-10 rounded-full bg-indigo-600 flex items-center justify-center">
+            <span className="text-white font-bold text-lg">AS</span>
+          </div>
         </button>
 
         <div className="flex items-center gap-6">
