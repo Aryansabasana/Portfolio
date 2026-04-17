@@ -105,8 +105,8 @@ const works: Work[] = [
     ],
     tech: ["Figma", "UI/UX", "Prototyping"],
     codeLink: "",
-    liveLink: "https://www.figma.com/proto/example1",
-    figmaLink: "https://www.figma.com/design/example1",
+    liveLink: "https://www.figma.com/proto/g6vcO3RxGBNPbCPjCL2ftf/Untitled?node-id=167-390",
+    figmaLink: "https://www.figma.com/design/g6vcO3RxGBNPbCPjCL2ftf/Untitled?node-id=167-390",
     category: "Figma"
   },
   {
@@ -120,8 +120,8 @@ const works: Work[] = [
     ],
     tech: ["Figma", "UI/UX", "Wireframing"],
     codeLink: "",
-    liveLink: "https://www.figma.com/proto/example2",
-    figmaLink: "https://www.figma.com/design/example2",
+    liveLink: "https://www.figma.com/proto/g6vcO3RxGBNPbCPjCL2ftf/Untitled?node-id=167-390",
+    figmaLink: "https://www.figma.com/design/g6vcO3RxGBNPbCPjCL2ftf/Untitled?node-id=167-390",
     category: "Figma"
   }
 ];

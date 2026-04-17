@@ -19,7 +19,30 @@ const certificates = [
     image: "https://res.cloudinary.com/dcxu5wckd/image/upload/v1772165576/37bcdcb2-dcc2-4f79-ae08-9a41e2b4636a_page-0001_bus3bp.jpg",
     link: "https://d8it4huxumps7.cloudfront.net/lambda-pdfs/certificate-images/37bcdcb2-dcc2-4f79-ae08-9a41e2b4636a.pdf"
   },
- 
+  {
+    id: 3,
+    title: "SU Hackathon-2026",
+    issuer: "Sangam University, Rajasthan",
+    date: "2026",
+    image: "https://res.cloudinary.com/dcxu5wckd/image/upload/v1776424065/SU_pages-to-jpg-0001_jzgrav.jpg",
+    link: "https://drive.google.com/file/d/1nLlTQMY8bD2ueiQJl9zB7Bdc4V6lyxVr/view?usp=sharing"
+  },
+  {
+    id: 4,
+    title: "Convergence Hackathon-2026",
+    issuer: "Ganpat University, Gujarat",
+    date: "2026",
+    image: "https://res.cloudinary.com/dcxu5wckd/image/upload/v1776424098/Ganpat_cropped_page-0001_xjeddq.jpg",
+    link: "https://drive.google.com/file/d/1P6LBkX90vBRDCsCEyEJjGZ8EiitNcUWp/view?usp=drive_link"
+  },
+  {
+    id: 5,
+    title: "Hack The Spring-2026",
+    issuer: "GEC, Gandhinagar",
+    date: "2026",
+    image: "https://res.cloudinary.com/dcxu5wckd/image/upload/v1776424065/GEC_cropped_page-0001_sqhbdp.jpg",
+    link: "https://drive.google.com/file/d/1jZSynSi1vAqsPVuWXmbu-qQiU9F8DnI2/view?usp=drive_link"
+  }
  
 ];
 
