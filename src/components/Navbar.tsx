@@ -26,16 +26,16 @@ export default function Navbar() {
   return (
     <>
       <nav className="fixed top-0 left-0 right-0 z-50 px-6 py-6 flex justify-between items-center mix-blend-difference text-white">
-        <button
-          onClick={() => { window.scrollTo({ top: 0, behavior: 'smooth' }); }}
+        <Link
+          to="/"
           className="cursor-pointer bg-transparent border-none"
         >
           <img 
             src="https://res.cloudinary.com/dcxu5wckd/image/upload/v1776427663/Gemini_Generated_Image_ljqh3nljqh3nljqh_srbgpd.png" 
             alt="Logo" 
-            className="w-10 h-10 object-contain"
+            className="w-14 h-14 object-contain rounded-full border-2 border-white/30"
           />
-        </button>
+        </Link>
 
         <div className="flex items-center gap-6">
           <button

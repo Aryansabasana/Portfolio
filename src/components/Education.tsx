@@ -7,6 +7,7 @@ const educationData = [
     degree: "Bachelor of Science in Computer Science",
     institution: "Swaminarayan University",
     year: "2025 — 2029",
+    cgpa: "9.81 CGPA",
     description: "Specialized in Software Engineering and Artificial Intelligence. Graduated with First Class Honors. Lead Developer of the University Tech Club."
   },
   {
@@ -14,6 +15,7 @@ const educationData = [
     degree: "Higher Secondary Education",
     institution: "NIB School Of Science",
     year: "2023-2024",
+    cgpa: "63%",
     description: "Intensive 12-week program focused on MERN stack development, cloud architecture, and agile methodologies."
   },
   {
@@ -21,6 +23,7 @@ const educationData = [
     degree: "Primary Education",
     institution: "M.M.Mehta English Medium School",
     year: "2010 — 2022",
+    cgpa: null,
     description: "Major in Science with focus on Mathematics and Physics. Won the Regional Coding Championship."
   }
 ];
@@ -67,9 +70,14 @@ export default function Education() {
                       <h3 className="text-xl md:text-3xl font-bold uppercase mb-2 leading-tight group-hover:text-indigo-400 transition-colors text-white">
                         {item.degree}
                       </h3>
-                      <h4 className="text-base md:text-lg font-mono text-gray-400 mb-4 border-b border-white/10 pb-4">
+                      <h4 className="text-base md:text-lg font-mono text-gray-400 mb-2 border-b border-white/10 pb-4">
                         {item.institution}
                       </h4>
+                      {item.cgpa && (
+                        <span className="inline-block px-3 py-1 bg-indigo-500/20 text-indigo-400 text-sm font-mono mb-4 border border-indigo-500/30">
+                          {item.cgpa}
+                        </span>
+                      )}
                       <p className="text-gray-300 leading-relaxed text-sm md:text-base">
                         {item.description}
                       </p>
