@@ -72,7 +72,7 @@ export default function About() {
             {/* Resume Button */}
             <div className="mt-14 flex justify-center md:justify-end relative z-20">
               <a
-                href="/resume.pdf"
+                href="/finalResume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 bg-white text-black border-2 border-white font-bold uppercase tracking-widest px-8 py-4 hover:bg-black hover:text-white transition-colors duration-300 text-sm"
