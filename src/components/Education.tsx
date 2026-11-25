@@ -4,11 +4,11 @@ import { GraduationCap } from 'lucide-react';
 const educationData = [
   {
     id: 1,
-    degree: "Bachelor of Science in Computer Science",
+    degree: "Bachelor of Engineering in Computer Engineering",
     institution: "Swaminarayan University",
     year: "2025 — 2029",
-    cgpa: "9.81 CGPA",
-    description: "Specialized in Software Engineering and Artificial Intelligence. Graduated with First Class Honors. Lead Developer of the University Tech Club."
+    cgpa: "Sem1 - 9.81 CGPA , Sem2 - 9.76 CGPA",
+    description: "Currently pursuing my 3rd semester in Computer Science, with a focus on Software Engineering and Artificial Intelligence. Passionate about building innovative solutions and exploring emerging technologies."
   },
   {
     id: 2,
@@ -16,7 +16,7 @@ const educationData = [
     institution: "NIB School Of Science",
     year: "2023-2024",
     cgpa: "63%",
-    description: "Intensive 12-week program focused on MERN stack development, cloud architecture, and agile methodologies."
+    description: "Completed Higher Secondary Education with a strong foundation in academics, analytical thinking, and problem-solving skills."
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ const educationData = [
     institution: "M.M.Mehta English Medium School",
     year: "2010 — 2022",
     cgpa: null,
-    description: "Major in Science with focus on Mathematics and Physics. Won the Regional Coding Championship."
+    description: "Developed a strong foundation in fundamental academic subjects while building curiosity, discipline, and essential learning skills."
   }
 ];
 
